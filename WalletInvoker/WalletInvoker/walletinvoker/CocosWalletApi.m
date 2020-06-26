@@ -86,7 +86,7 @@ static NSString *callback_schema = nil;
     if ([[UIApplication sharedApplication] canOpenURL:url]) {
         url = [NSURL URLWithString:URLString];
     } else {
-        url = [NSURL URLWithString:@"https://www.cocosbcx.io/download.html"];
+        url = [NSURL URLWithString:@"https://www.dappx.com/"];
     }
     
     if (@available(iOS 10.0, *)) {
